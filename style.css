@@ -1,0 +1,218 @@
+* {
+  box-sizing:border-box;
+  font-family:"karlo", sans-serif;
+}
+
+body{
+  min-width:250px;
+}
+
+
+.titleName {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 5px;
+  word-spacing: 1px;
+  color: #e87d2c;
+  text-shadow: 
+    -1px -1px 0 #f2996a,
+    -2px -2px 0 #ef9e73,
+    -3px -3px 0 #efa47c,
+    -4px -4px 0 #efaf8d,
+    -5px -5px 0 #f2c1a7,
+    -6px -6px 0 #f2cfbc,
+    -7px -7px 0 #f2cfbc,
+    -8px -8px 0 #f2cfbc,
+   
+    -20px 20px 40px tomato;
+}
+
+.inputSection{
+  margin-top:10px;
+  margin-bottom:20px;
+
+}
+
+.inputSection:after{
+  content:"";
+  display:table;
+  clear:both;
+
+}
+
+.completed{
+  font-size:25px;
+  color: #e87d2c;
+  
+}
+
+
+ul{
+ list-style-type:none;
+ margin:0px;
+ padding:0px;
+/* border-radius:20px 20px 50px 50px;*/
+
+
+
+ }
+
+ ul li{
+  position:relative;
+  display:block;
+/*  padding: 12px 8px 12px 40px;*/
+  padding:12px 30px 12px 30px;
+
+  text-decoration:none;
+  background: white;
+  font-size:18px;
+  transition: .02s;
+  color: #555;
+  border:1px solid #ef9e73;
+  border-radius: 20px;
+  margin-top: 10px 10px;
+  border-top-style: none;
+  border-right-style: none;
+
+
+
+
+ /* make the list items unselectable */
+   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+ } 
+
+
+
+/*/* Set odd on list item to different color
+ ul li:nth-child(odd) {
+  background: #f9f9f9;
+
+}*/
+
+ ul li:hover{
+
+ background-color:#f4cab5;
+ color: white;
+
+ }
+
+
+.close{
+  position:absolute;
+  right: 0;
+  top: 0;
+  padding:12px 30px 12px 30px;
+/*  background-color: #f9e7db;*/
+
+}
+
+.close:hover{
+  background-color:#ef8851;
+  color:white;
+ 
+}
+/*/*Style the header
+h1{
+  background-color:#ffc291;
+  padding:30px 40px;
+  color:white;
+  text-align:center;}
+*/
+/*h1:after{
+  content:"";
+  display:table;
+  clear:both;
+}*/
+.first{
+  margin-top:10px;
+  padding:0;
+  background-color:white;
+  clear:both;
+  padding:5px;
+  border-radius:20px 20px 20px 20px;
+  border-style:solid;
+  border-right: 1px;
+  border-top: 1px;
+  border-color: orange;
+}
+
+/*.first:after{
+  content:"";
+  display:table;
+  clear:both;
+}*/
+
+
+.done {
+  text-decoration: line-through;
+  text-decoration-style:double;
+  background-color:rgb(255, 219, 188, 0.3);
+
+}
+
+span{
+  border-radius: 20px 20px 20px 20px;
+  margin:0;
+
+}
+
+/* Button*/
+.addBtn {
+  margin:0;
+  padding: 14px;
+  width: 25%;
+/*  background:#f9e7db;*/
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  border:1px solid #ef9e73;
+  border-radius: 0px 20px 20px 0px;
+   border-top-style: none;
+  border-right-style: none;
+}
+
+button:focus{
+  outline:0;
+}
+
+.addBtn:hover{
+  background-color:#ef8851;
+  color:white;
+}
+
+input {
+  margin: 0;
+  border: 1px solid #ef9e73;
+  border-radius: 20px 0px 0px 20px;
+  width:75%;
+  padding: 14px;
+  float: left;
+  font-size: 18px;
+  text-align: center;
+   border-top-style: none;
+  border-right-style: none;
+
+
+}
+
+input:focus{
+  outline:0;
+}
+
+
+
+.box{
+  background-color:#f4cab5;
+  color:white;
+}
+
+.undoBox{
+  background-color:white;
+}
+
+
