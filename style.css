@@ -7,7 +7,6 @@ body{
   min-width:250px;
 }
 
-
 .titleName {
   text-align: center;
   font-size: 50px;
@@ -23,7 +22,6 @@ body{
     -6px -6px 0 #f2cfbc,
     -7px -7px 0 #f2cfbc,
     -8px -8px 0 #f2cfbc,
-   
     -20px 20px 40px tomato;
 }
 
@@ -40,10 +38,10 @@ body{
 
 }
 
-.completed{
-  font-size:25px;
-  color: #e87d2c;
-  
+.add{
+  font-size:20px;
+  color: #e87d2c; 
+  text-align:center;
 }
 
 
@@ -51,18 +49,12 @@ ul{
  list-style-type:none;
  margin:0px;
  padding:0px;
-/* border-radius:20px 20px 50px 50px;*/
-
-
-
  }
 
  ul li{
   position:relative;
   display:block;
-/*  padding: 12px 8px 12px 40px;*/
   padding:12px 30px 12px 30px;
-
   text-decoration:none;
   background: white;
   font-size:18px;
@@ -74,9 +66,6 @@ ul{
   border-top-style: none;
   border-right-style: none;
 
-
-
-
  /* make the list items unselectable */
    -webkit-user-select: none;
   -moz-user-select: none;
@@ -85,23 +74,12 @@ ul{
 
  } 
 
-
-
-/*/* Set odd on list item to different color
- ul li:nth-child(odd) {
-  background: #f9f9f9;
-
-}*/
-
  ul li:hover{
-
- background-color:#f4cab5;
- color: white;
-
+   background-color:#f4cab5;
+   color: white;
  }
 
-
-.close{
+.delbtn{
   position:absolute;
   right: 0;
   top: 0;
@@ -109,24 +87,11 @@ ul{
 /*  background-color: #f9e7db;*/
 
 }
-
-.close:hover{
+.delbtn:hover{
   background-color:#ef8851;
   color:white;
  
 }
-/*/*Style the header
-h1{
-  background-color:#ffc291;
-  padding:30px 40px;
-  color:white;
-  text-align:center;}
-*/
-/*h1:after{
-  content:"";
-  display:table;
-  clear:both;
-}*/
 .first{
   margin-top:10px;
   padding:0;
@@ -140,13 +105,6 @@ h1{
   border-color: orange;
 }
 
-/*.first:after{
-  content:"";
-  display:table;
-  clear:both;
-}*/
-
-
 .done {
   text-decoration: line-through;
   text-decoration-style:double;
@@ -157,7 +115,6 @@ h1{
 span{
   border-radius: 20px 20px 20px 20px;
   margin:0;
-
 }
 
 /* Button*/
@@ -165,14 +122,14 @@ span{
   margin:0;
   padding: 14px;
   width: 25%;
-/*  background:#f9e7db;*/
+  background:#f9e7db;
   color: #555;
   float: left;
   text-align: center;
   font-size: 18px;
   border:1px solid #ef9e73;
   border-radius: 0px 20px 20px 0px;
-   border-top-style: none;
+  border-top-style: none;
   border-right-style: none;
 }
 
@@ -196,15 +153,7 @@ input {
   text-align: center;
    border-top-style: none;
   border-right-style: none;
-
-
 }
-
-input:focus{
-  outline:0;
-}
-
-
 
 .box{
   background-color:#f4cab5;
